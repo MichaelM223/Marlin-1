@@ -132,3 +132,6 @@ Marlin/.vs/
 #cmake
 CMakeLists.txt
 Marlin/CMakeLists.txt
+
+.travis.yml
+lib/

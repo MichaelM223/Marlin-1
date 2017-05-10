@@ -500,7 +500,7 @@
   #endif
 
   // Show a progress bar on HD44780 LCDs for SD printing
-  #define LCD_PROGRESS_BAR
+  //#define LCD_PROGRESS_BAR
 
   #if ENABLED(LCD_PROGRESS_BAR)
     // Amount of time (ms) to show the bar
@@ -768,7 +768,7 @@
  * Requires an LCD display.
  * This feature is required for the default FILAMENT_RUNOUT_SCRIPT.
  */
-#define FILAMENT_CHANGE_FEATURE
+//#define FILAMENT_CHANGE_FEATURE
 #if ENABLED(FILAMENT_CHANGE_FEATURE)
   #define FILAMENT_CHANGE_X_POS 20             // X position of hotend
   #define FILAMENT_CHANGE_Y_POS 20             // Y position of hotend
